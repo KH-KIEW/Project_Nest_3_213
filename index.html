@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Language Translation</title>
+</head>
+<style>
+body {
+    background-color: skyblue;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 36px;
+    color: black;
+}
+
+#input-text {
+    margin-top: 20px;
+}
+
+textarea {
+    width: 80%;
+    height: 150px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+select {
+    font-size: 16px;
+    padding: 5px;
+}
+
+input[type="submit"] {
+    background-color: #07090b;
+    color: rgb(238, 237, 240);
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+</style>
+<body background="https://www.atltranslate.com/hs-fs/hubfs/languages%20for%20translation%20(1)-2.png?width=1500&name=languages%20for%20translation%20(1)-2.png">
+    <center>
+        <h1><font size="200" color="black">Language Translation</font></h1>
+        <form action="/" method="post">
+            <div id="input-text">
+                <b><textarea id="source-text" name="code" placeholder="Enter any word"></textarea></b>
+            </div>
+            <br><br><br>
+            <select name="target_language">
+                <option value="en">english</option>
+                <option value="te">telugu</option>
+                <option value="hi">hindi</option>
+                <option value="ta">tamil</option>
+                <option value="ur">urdu</option>
+                <option value="be">bengali</option>
+                <option value="fr">french</option>
+                <option value="gu">gujarati</option>
+                <option value="ja">japanese</option>
+                <option value="kn">kannada</option>
+                <option value="ko">korean</option>
+                <option value="mr">marathi</option>
+                <option value="pa">panjabi</option>
+                <option value="ru">russian</option>
+                <option value="es">spanish</option>
+            </select><br><br><br>
+           <input type="submit" value="Translate">
+        </form>
+    </center>
+</body>
+</html>
